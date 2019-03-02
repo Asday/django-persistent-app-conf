@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 
 setup(
-    name='pac',
+    name='django-pac',
     version='0.0.0',
     license='MIT',
     description=(
