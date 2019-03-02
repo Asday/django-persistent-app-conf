@@ -35,5 +35,6 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     install_requires=[
+        'Django>=1.11',
     ],
 )
