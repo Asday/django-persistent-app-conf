@@ -7,6 +7,7 @@
 
 # Library
 
+* Model base class (or mixin?  Or manager?)  That ensures only one copy of a model row exists at most, (per site in future perhaps);
 * Custom field that tracks whether it's been set (but how);
   * Config fields start unconfigured, transition to configured once modified, and never change to unconfigured again (allowing for indefinite caching of configured status).
 * Middleware that inspects the view/app for config requirements;
