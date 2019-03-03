@@ -26,3 +26,8 @@ def test_environment_matches_expectations():
         f'py{sys.version_info.major}{sys.version_info.minor}-'
         f'{django_major_version}'
     )
+
+
+@sanity
+def test_django_runs(client):
+    client.get('/spurious-url')
